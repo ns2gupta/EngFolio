@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7c09570-427f-406b-aee8-e7a21a2d1b37" name="Default Changelist" comment="updated styles">
+    <list default="true" id="c7c09570-427f-406b-aee8-e7a21a2d1b37" name="Default Changelist" comment="2021-05-01">
+      <change afterPath="$PROJECT_DIR$/assets/img/WSP-Logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/img-png-wsp-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/ionicons/ionicons.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/testimonial-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/testimonial-2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-details.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -46,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619819075356</updated>
-      <workItem from="1619819076612" duration="9187000" />
+      <workItem from="1619819076612" duration="19935000" />
     </task>
     <task id="LOCAL-00001" summary="updated Intro">
       <created>1619841103710</created>
@@ -62,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619857618891</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2021-05-01">
+      <created>1619858356392</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619858356392</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +99,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="updated Intro" />
     <MESSAGE value="updated styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated styles" />
+    <MESSAGE value="2021-05-01" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-05-01" />
   </component>
 </project>
