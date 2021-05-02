@@ -873,27 +873,27 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# Project Details
 --------------------------------------------------------------*/
-.portfolio-details {
+.project-details {
   padding-top: 30px;
 }
 
-.portfolio-details .portfolio-details-container {
+.project-details .project-details-container {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-carousel {
+.project-details .project-details-carousel {
   position: relative;
   z-index: 1;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
+.project-details .project-details-carousel .owl-nav, .project-details .project-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: left;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-dot {
+.project-details .project-details-carousel .owl-dot {
   display: inline-block;
   margin: 0 10px 0 0;
   width: 12px;
@@ -902,11 +902,11 @@ a:hover {
   background-color: #ddd !important;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-dot.active {
+.project-details .project-details-carousel .owl-dot.active {
   background-color: #0078ff !important;
 }
 
-.portfolio-details .portfolio-info {
+.project-details .project-info {
   padding: 30px;
   position: absolute;
   right: 0;
@@ -916,7 +916,7 @@ a:hover {
   z-index: 2;
 }
 
-.portfolio-details .portfolio-info h3 {
+.project-details .project-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -924,36 +924,36 @@ a:hover {
   border-bottom: 1px solid #eee;
 }
 
-.portfolio-details .portfolio-info ul {
+.project-details .project-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
+.project-details .project-info ul li + li {
   margin-top: 10px;
 }
 
-.portfolio-details .portfolio-description {
+.project-details .project-description {
   padding-top: 50px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.project-details .project-description h2 {
   width: 50%;
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-description p {
+.project-details .project-description p {
   padding: 0 0 0 0;
 }
 
 @media (max-width: 768px) {
-  .portfolio-details .portfolio-description h2 {
+  .project-details .project-description h2 {
     width: 100%;
   }
-  .portfolio-details .portfolio-info {
+  .project-details .project-info {
     position: static;
     margin-top: 30px;
   }
