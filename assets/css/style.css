@@ -1093,7 +1093,7 @@ a:hover {
   font-size: 14px;
 }
 
-.php-email-form input::focus, .php-email-form textarea::focus {
+.php-email-form input :focus, .php-email-form textarea :focus {
   background-color: #0078ff;
 }
 
