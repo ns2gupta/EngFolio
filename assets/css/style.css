@@ -757,7 +757,7 @@ a:hover {
   width: 1rem;
   height: .7rem;
   transition: 1s;
-  background-image: linear-gradient(to right top, #e7f2c6, #d8f0c4, #c9edc4, #b9eac5, #a9e7c8);
+  background-image: linear-gradient(to right top, #f6f8f0, #e9f3e1, #d8efd5, #c3ebcc, #a9e7c8);
 }
 /*--------------------------------------------------------------
 # Experiences
