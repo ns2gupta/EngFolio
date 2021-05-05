@@ -1,6 +1,6 @@
 
 body {
-  background-image: radial-gradient(circle, #cba6bb, #bb96b5, #a887b1, #917aae, #746fab, #6566a8, #555da5, #4154a2, #47489d, #503b97, #582a8e, #611283);
+background-image: linear-gradient(to bottom, #ffffff, #f4fbff, #dbfbff, #c1fcff, #b4fbe9);
   color: #4e4e4e;
 }
 
@@ -48,7 +48,7 @@ a:hover {
 }
 
 .box-shadow-a, .button:hover {
-  box-shadow: 0 0 0 4px #3dcc82;
+  box-shadow: 0 0 0 4px #B4FBE9;
 }
 
 .display-5 {
@@ -84,7 +84,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #3dcc82;
+  background-color: #B4FBE9;
 }
 
 .overlay-mf {
@@ -182,7 +182,7 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #3dcc82;
+  background-color: #B4FBE9;
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -511,7 +511,7 @@ a:hover {
 
 .navbar-b.navbar-reduce {
   transition: all .5s ease-in-out;
-  background-color: #fff;
+  background-color: #FFFFFF;
   padding-top: 15px;
   padding-bottom: 15px;
 }
