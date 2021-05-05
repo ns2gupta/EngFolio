@@ -1,6 +1,6 @@
 
 body {
-  background-color: #f5f5f5;
+  background-image: radial-gradient(circle, #cba6bb, #bb96b5, #a887b1, #917aae, #746fab, #6566a8, #555da5, #4154a2, #47489d, #503b97, #582a8e, #611283);
   color: #4e4e4e;
 }
 
@@ -44,11 +44,11 @@ a:hover {
 }
 
 .box-shadow, .paralax-mf, .Experience-box, .work-box, .card-blog {
-  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 0px 0px rgba(0, 0, 0, 0);
 }
 
 .box-shadow-a, .button:hover {
-  box-shadow: 0 0 0 4px #cde1f8;
+  box-shadow: 0 0 0 4px #3dcc82;
 }
 
 .display-5 {
@@ -84,7 +84,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #3dcc82;
 }
 
 .overlay-mf {
@@ -182,7 +182,7 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #fff;
+  background-color: #3dcc82;
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -204,13 +204,13 @@ a:hover {
 }
 
 .socials .ico-circle {
-  height: 40px;
-  width: 40px;
-  font-size: 1.7rem;
-  border-radius: 50%;
+  height: 110px;
+  width: 110px;
+  font-size:5rem;
+  border-radius: 100%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px #fff;
   transition: all 500ms ease;
 }
 
@@ -241,7 +241,7 @@ a:hover {
 .ico-circle {
   height: 100px;
   width: 100px;
-  font-size: 2rem;
+  font-size: 10rem;
   border-radius: 50%;
   line-height: 1.55;
   margin: 0 auto;
@@ -951,7 +951,9 @@ html {
   margin-bottom: 10px;
   letter-spacing: 2px;
 }
-@media only screen and (min-width: 768px)
+@media only screen and (min-width: 768px){
+
+
   /*.timeline:before {*/
   /*  content: "";*/
   /*  position: absolute;*/
@@ -1157,7 +1159,7 @@ html {
 # Contact
 --------------------------------------------------------------*/
 .footer-paralax {
-  padding: 4rem 0 0 0;
+  padding: 0 0 0 0;
 }
 
 .contact-mf {
