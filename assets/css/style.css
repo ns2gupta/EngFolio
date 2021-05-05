@@ -379,52 +379,195 @@ a:hover {
 }
 
 /*------/ Button /------*/
-.button {
-  display: inline-block;
-  padding: .3rem .6rem;
-  text-align: center;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  font-size: 1rem;
-  border-radius: .3rem;
-  border: 1px solid transparent;
-  transition: all 500ms ease;
-  cursor: pointer;
+
+
+
+/*.button {*/
+/*  display: inline-block;*/
+/*  padding: .3rem .6rem;*/
+/*  text-align: center;*/
+/*  vertical-align: middle;*/
+/*  -webkit-user-select: none;*/
+/*  -moz-user-select: none;*/
+/*  -ms-user-select: none;*/
+/*  user-select: none;*/
+/*  font-size: 1rem;*/
+/*  border-radius: .3rem;*/
+/*  border: 1px solid transparent;*/
+/*  transition: all 500ms ease;*/
+/*  cursor: pointer;*/
+/*}*/
+
+/*.button:focus {*/
+/*  outline: 0;*/
+/*}*/
+
+/*.button:hover {*/
+/*  background-color: #0062d3;*/
+/*  color: #fff;*/
+/*  transition: all 500ms ease;*/
+/*}*/
+
+/*.button-a {*/
+/*  background-color: #0078ff;*/
+/*  color: #fff;*/
+/*  border-color: #cde1f8;*/
+/*}*/
+
+/*.button-big {*/
+/*  padding: .9rem 2.3rem;*/
+/*  font-size: 1.2rem;*/
+/*}*/
+
+/*.button-rouded {*/
+/*  border-radius: 5rem;*/
+/*}*/
+
+/*.btn-lg {*/
+/*  padding: .5rem 1rem;*/
+/*  font-size: 1.25rem;*/
+/*  line-height: 1.5;*/
+/*  border-radius: .3rem;*/
+/*}*/
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,700,900");
+body {
+  font-family: "Work Sans", sans-serif;
+  /*background: #111;*/
+  /*text-align: center;*/
 }
 
-.button:focus {
-  outline: 0;
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  touch-callout: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  display: inline-block;
+  border: 0.2em solid;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  opacity: 0.6;
+  /*color: #FFF;*/
+}
+.button__text {
+  display: block;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.button__text:before {
+  content: attr(title);
+}
+.button__text--bis {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateX(-1em);
+  opacity: 0;
+}
+.button__mask {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /*background: white;*/
+  transform: translateX(-100%) rotate(45deg);
+  transition: all 0.3s;
 }
 
 .button:hover {
-  background-color: #0062d3;
-  color: #fff;
-  transition: all 500ms ease;
+  opacity: 1;
+}
+.button:hover .button__text {
+  -webkit-animation: fx-text 0.3s ease-out;
+          animation: fx-text 0.3s ease-out;
+}
+.button:hover .button__text--bis {
+  -webkit-animation: fx-text-bis 0.3s ease-out;
+          animation: fx-text-bis 0.3s ease-out;
+}
+.button:hover .button__mask {
+  -webkit-animation: fx-mask 0.3s ease-out;
+          animation: fx-mask 0.3s ease-out;
 }
 
-.button-a {
-  background-color: #0078ff;
-  color: #fff;
-  border-color: #cde1f8;
+.button:active {
+  opacity: 1;
+  /*background: white;*/
+  color: inherit;
 }
 
-.button-big {
-  padding: .9rem 2.3rem;
-  font-size: 1.2rem;
+@-webkit-keyframes fx-mask {
+  0% {
+    transform: translateX(-100%) rotate(45deg);
+  }
+  100% {
+    transform: translateX(100%) rotate(45deg);
+  }
 }
 
-.button-rouded {
-  border-radius: 5rem;
+@keyframes fx-mask {
+  0% {
+    transform: translateX(-100%) rotate(45deg);
+  }
+  100% {
+    transform: translateX(100%) rotate(45deg);
+  }
 }
-
-.btn-lg {
-  padding: .5rem 1rem;
-  font-size: 1.25rem;
-  line-height: 1.5;
-  border-radius: .3rem;
+@-webkit-keyframes fx-text {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(1em);
+    opacity: 0;
+  }
+}
+@keyframes fx-text {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(1em);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fx-text-bis {
+  0% {
+    transform: translateX(-1em);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fx-text-bis {
+  0% {
+    transform: translateX(-1em);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 /*--------------------------------------------------------------
