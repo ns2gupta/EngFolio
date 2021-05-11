@@ -381,54 +381,6 @@ a:hover {
 /*------/ Button /------*/
 
 
-
-/*.button {*/
-/*  display: inline-block;*/
-/*  padding: .3rem .6rem;*/
-/*  text-align: center;*/
-/*  vertical-align: middle;*/
-/*  -webkit-user-select: none;*/
-/*  -moz-user-select: none;*/
-/*  -ms-user-select: none;*/
-/*  user-select: none;*/
-/*  font-size: 1rem;*/
-/*  border-radius: .3rem;*/
-/*  border: 1px solid transparent;*/
-/*  transition: all 500ms ease;*/
-/*  cursor: pointer;*/
-/*}*/
-
-/*.button:focus {*/
-/*  outline: 0;*/
-/*}*/
-
-/*.button:hover {*/
-/*  background-color: #0062d3;*/
-/*  color: #fff;*/
-/*  transition: all 500ms ease;*/
-/*}*/
-
-/*.button-a {*/
-/*  background-color: #0078ff;*/
-/*  color: #fff;*/
-/*  border-color: #cde1f8;*/
-/*}*/
-
-/*.button-big {*/
-/*  padding: .9rem 2.3rem;*/
-/*  font-size: 1.2rem;*/
-/*}*/
-
-/*.button-rouded {*/
-/*  border-radius: 5rem;*/
-/*}*/
-
-/*.btn-lg {*/
-/*  padding: .5rem 1rem;*/
-/*  font-size: 1.25rem;*/
-/*  line-height: 1.5;*/
-/*  border-radius: .3rem;*/
-/*}*/
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:400,700,900");
 body {
   font-family: "Work Sans", sans-serif;
@@ -458,6 +410,14 @@ body {
   overflow: hidden;
   opacity: 0.6;
   /*color: #FFF;*/
+}
+
+.spacer {
+  margin: 0 10px;
+}
+
+.button-row{
+  display:flex;
 }
 .button__text {
   display: block;
