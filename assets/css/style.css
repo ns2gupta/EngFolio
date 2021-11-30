@@ -1,6 +1,6 @@
 
 body {
-  background-image: linear-gradient(to bottom, #7395AE, #8da8bd, #a5bed0, #bfd4e4, #ffffff);
+  background-image: linear-gradient(to top, #7395AE, #8da8bd, #a5bed0, #bfd4e4, #ffffff);
   color: #000000;
 }
 
@@ -182,7 +182,7 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-image: linear-gradient(to bottom , #B1A296, #B1A296, #B1A296, #c3b6ac, #c3b6ac);
+  background-image: linear-gradient(to bottom , #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
