@@ -1,6 +1,6 @@
 
 body {
-background-image: linear-gradient(to bottom, #ffffff, #f4fbff, #dbfbff, #c1fcff, #b4fbe9);
+  background-image: linear-gradient(to bottom, #ffffff);
   color: #4e4e4e;
 }
 
@@ -48,7 +48,7 @@ a:hover {
 }
 
 .box-shadow-a, .button:hover {
-  box-shadow: 0 0 0 4px #B4FBE9;
+  box-shadow: 0 0 0 4px #7395AE;
 }
 
 .display-5 {
@@ -84,7 +84,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #B4FBE9;
+  background-color: #7395AE;
 }
 
 .overlay-mf {
@@ -182,7 +182,7 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-image: linear-gradient(to right top, #f6f8f0, #f3f6f0, #f1f4f0, #eff2f0, #eef0ef);
+  background-image: linear-gradient(to right top, #B1A296, #B1A296, #B1A296, #B1A296, #B1A296);
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -842,11 +842,11 @@ body {
 }
 
 .skill-mf span {
-  color: #4e4e4e;
+  color: #e4e4e;
 }
 
 .skill-mf .progress {
-  background-color: #cde1f8;
+  background-color: #535D5B;
   margin: .5rem 0 1.2rem 0;
   border-radius: 0;
   height: .7rem;
@@ -860,7 +860,7 @@ body {
   width: 1rem;
   height: .7rem;
   transition: 1s;
-  background-image: linear-gradient(to right top, #f6f8f0, #e9f3e1, #d8efd5, #c3ebcc, #a9e7c8);
+  background-image: linear-gradient(to right top, #7395AE, #7395AE, #7395AE, #7395AE, #a9e7c8);
 }
 /*--------------------------------------------------------------
 # Experiences
