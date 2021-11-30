@@ -1,7 +1,7 @@
 
 body {
-  background-image: linear-gradient(to bottom, #ffffff);
-  color: #4e4e4e;
+  background-image: linear-gradient(to bottom, #7395AE, #8da8bd, #a5bed0, #bfd4e4, #ffffff);
+  color: #000000;
 }
 
 h1,
@@ -40,7 +40,7 @@ a:hover {
 }
 
 .color-text-a {
-  color: #4e4e4e;
+  color: #000000;
 }
 
 .box-shadow, .paralax-mf, .Experience-box, .work-box, .card-blog {
@@ -145,7 +145,7 @@ a:hover {
 }
 
 .subtitle-a {
-  color: #4e4e4e;
+  color: #000000;
 }
 
 .line-mf {
@@ -182,7 +182,7 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-image: linear-gradient(to right top, #B1A296, #B1A296, #B1A296, #B1A296, #B1A296);
+  background-image: linear-gradient(to bottom , #B1A296, #B1A296, #B1A296, #c3b6ac, #c3b6ac);
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -897,7 +897,7 @@ body {
 }
 
 .Experience-box .s-description {
-  color: #4e4e4e;
+  color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -958,7 +958,7 @@ body {
 }
 
 .work-content .w-more {
-  color: #4e4e4e;
+  color: #000000;
   font-size: .8rem;
 }
 
@@ -1419,7 +1419,7 @@ html {
 }
 
 .card-blog .card-description {
-  color: #4e4e4e;
+  color: #000000;
 }
 
 .card-blog .post-author {
@@ -1427,7 +1427,7 @@ html {
 }
 
 .card-blog .post-date {
-  color: #4e4e4e;
+  color: #000000;
   display: inline-block;
   float: right;
 }
